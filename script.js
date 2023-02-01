@@ -111,8 +111,6 @@ async function checkforerror(locat) {
   }
 }
 function makingValuesEmpty() {
-  document.getElementById("success").innerText = "Please enter an address!";
-  document.getElementById("success").style.color = "red";
   document.getElementById("time").innerText = " ";
   document.getElementById("lati").innerText = " ";
   document.getElementById("lon").innerText = " ";
